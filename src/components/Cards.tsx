@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
 import style from "./Styles/Cards.module.css"
-import { tr } from 'zod/v4/locales';
-import { number } from 'zod';
 
 interface Props{
   mainList:string[];

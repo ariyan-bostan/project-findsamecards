@@ -4,7 +4,6 @@ import style from "./Styles/App.module.css";
 import { _readonly } from "zod/v4/core";
 
 const App = () => {
-  const [countTrue, setCountTrue] = useState<number>(0);
 
   return <>{Game()}</>;
 };
